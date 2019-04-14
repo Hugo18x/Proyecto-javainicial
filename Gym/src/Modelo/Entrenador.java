@@ -6,10 +6,16 @@ private Boxeador[] listaBoxeador;
 private EntrenadoresEnum  nombre;
 private int cont =0;
 public CategoriaEnum getCategoria;
+private CategoriaEnum categoria1;
+private CategoriaEnum categoria2;
+private Boxeador[] listaRechazados;
 
-public Entrenador(EntrenadoresEnum nombre) {
+public Entrenador(EntrenadoresEnum nombre, CategoriaEnum categoria1, CategoriaEnum categoria2) {
 this.listaBoxeador = new Boxeador[5];
-this.nombre=nombre;
+this.listaRechazados = new Boxeador [20];
+this.nombre = nombre;
+this.categoria1 = categoria1;
+this.categoria2 = categoria2;
 }
 public EntrenadoresEnum getNombre() {
 	
@@ -37,6 +43,10 @@ System.out.println("El entrenador llego al maximo de boxeadores");
 
 }
 
+}
+public void asignoEntrenador(Boxeador boxeador) {
+	
+	
 }
 		
 }

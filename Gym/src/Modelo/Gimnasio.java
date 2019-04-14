@@ -1,10 +1,13 @@
 package Modelo;
 
+
 import java.util.Scanner;
 
 public class Gimnasio {		
 	public static void main(String[] args) {	
-Scanner scan = new Scanner(System.in);
+
+		Gymcontrolador gc= new Gymcontrolador();
+		Scanner scan = new Scanner(System.in);
 Boxeador boxeadores[] = new Boxeador[2]; 
 System.out.println("Bienvenido al Gym de Boxeadores");
 for(int i =0; i < 2; i ++) {
@@ -24,6 +27,8 @@ System.out.println("---------------------");
 
 boxeadores[i]= box;
 System.out.println(nombre + " " + peso);
+
+
 }
  
 

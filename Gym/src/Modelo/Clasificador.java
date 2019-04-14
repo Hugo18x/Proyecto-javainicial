@@ -2,10 +2,7 @@ package Modelo;
 
 public class Clasificador {
 
-
- 
-
-public static CategoriaEnum getCategoria (float peso) {
+public static CategoriaEnum getCategoria (double peso) {
  
 	if( peso > 48.988 && peso <52.163) {
 	return  CategoriaEnum.Mosca;
@@ -27,4 +24,5 @@ public static CategoriaEnum getCategoria (float peso) {
 	return CategoriaEnum.Rechazado;
 
 	}
+
 }	
