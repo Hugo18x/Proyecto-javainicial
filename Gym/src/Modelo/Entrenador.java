@@ -44,9 +44,5 @@ System.out.println("El entrenador llego al maximo de boxeadores");
 }
 
 }
-public void asignoEntrenador(Boxeador boxeador) {
 	
-	
-}
-		
 }
